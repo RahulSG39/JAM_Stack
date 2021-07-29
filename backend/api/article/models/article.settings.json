@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "Article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Article_ID": {
+      "type": "integer",
+      "private": false,
+      "unique": true,
+      "required": true
+    }
+  }
+}
